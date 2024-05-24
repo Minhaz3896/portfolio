@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import React from "react";
-import { SiGithub } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiDiscord   } from "react-icons/si";
+
 
 const Navbar = () => {
   const socials = [
@@ -11,7 +12,7 @@ const Navbar = () => {
 
       label: "Linkdin",
 
-      Icon: SiGithub,
+      Icon: SiLinkedin,
     },
     {
       link: "https://www.youtube.com/",
@@ -25,7 +26,7 @@ const Navbar = () => {
 
       label: "Linkdin",
 
-      Icon: SiGithub,
+      Icon: SiDiscord ,
     },
   ];
   return (
