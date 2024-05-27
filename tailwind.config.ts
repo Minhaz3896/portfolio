@@ -1,3 +1,4 @@
+import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss"
 
 const svgToDataUri = require("mini-svg-data-uri");
@@ -6,6 +7,8 @@ const colors = require("tailwindcss/colors");
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
+
+
 
 
 
@@ -68,6 +71,29 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        "move-up":{
+          from:{
+            transform:"translateY(10px)",
+            opacity:'0',
+
+          },
+          to:{
+            transform:"translateY(0px)",
+            opacity:'1',
+          },
+        },
+        "move-down":{
+          from:{
+            transform:"translateY(-10px)",
+            opacity:'0',
+
+          },
+          to:{
+            transform:"translateY(0px)",
+            opacity:'1',
+          },
+        },
+        
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -80,6 +106,8 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "move-up": "move-up 1s linear forwards",
+        "move-down": "move-down 1s linear forwards"
       },
     },
   },

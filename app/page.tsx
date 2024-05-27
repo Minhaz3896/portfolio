@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
@@ -17,6 +18,7 @@ const page = () => {
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skill />
         <Projects/>
+        <Footer/>
       </div>
     </main>
   );
