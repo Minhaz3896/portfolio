@@ -1,6 +1,6 @@
 import React from "react";
 
-const title = ({ text, className }: { text: string; className: string }) => {
+const title = ({ text, className }: { text: string; className?: string }) => {
   return (
     <div className={className}>
       <h1 className="text-3xl font-bold group-hover:text-green-300 transition-all">

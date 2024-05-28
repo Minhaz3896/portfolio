@@ -8,23 +8,23 @@ import { SiGithub, SiLinkedin, SiDiscord   } from "react-icons/si";
 const Navbar = ({className}:{className?:string}) => {
   const socials = [
     {
-      link: "https://www.youtube.com/",
+      link: "https://www.linkedin.com/in/minhazur-rhaman-478312290/",
 
       label: "Linkdin",
 
       Icon: SiLinkedin,
     },
     {
-      link: "https://www.youtube.com/",
+      link: "https://github.com/Minhaz3896",
 
-      label: "Linkdin",
+      label: "Github",
 
       Icon: SiGithub,
     },
     {
-      link: "https://www.youtube.com/",
+      link: "https://discord.com/",
 
-      label: "Linkdin",
+      label: "Discord",
 
       Icon: SiDiscord ,
     },

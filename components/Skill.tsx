@@ -2,7 +2,7 @@
 import React from "react";
 import Title from "./Title";
 import { HoverEffect } from "./ui/card-hover-effect";
-import { SiReact } from "react-icons/si";
+import { SiReact, SiTailwindcss,SiNextdotjs,SiVuedotjs,SiGit,SiPython,SiCss3,SiJavascript,SiHtml5 } from "react-icons/si";
 
 const skills = [
   {
@@ -10,36 +10,36 @@ const skills = [
     Icon: SiReact,
   },
   {
-    text: "React",
-    Icon: SiReact,
+    text: "Tailwind",
+    Icon: SiTailwindcss,
   },
   {
-    text: "React",
-    Icon: SiReact,
+    text: "Next.Js",
+    Icon: SiNextdotjs,
   },
   {
-    text: "React",
-    Icon: SiReact,
+    text: "Vue.js",
+    Icon: SiVuedotjs ,
   },
   {
-    text: "React",
-    Icon: SiReact,
+    text: "Git",
+    Icon: SiGit ,
   },
   {
-    text: "React",
-    Icon: SiReact,
+    text: "Python",
+    Icon: SiPython,
   },
   {
-    text: "React",
-    Icon: SiReact,
+    text: "Javascript",
+    Icon: SiJavascript,
   },
   {
-    text: "React",
-    Icon: SiReact,
+    text: "CSS",
+    Icon: SiCss3,
   },
   {
-    text: "React",
-    Icon: SiReact,
+    text: "HTML",
+    Icon: SiHtml5,
   },
 ];
 
