@@ -15,10 +15,7 @@ const Hero = () => {
           </span>
         </h1>
         <p className="md: w-96 text-lg text-gray-100">
-          ale counters at his shop. He's often seen at the saloon in the
-          evenings, especially during the winter, when he sits with Clint. He
-          lives close to Elliott; the two of them are the only residents of the
-          beach. He is also friends
+          
         </p>
         <Link href={"mailto:minhaz3896@gmail.com"} className="inline-block group">
           <Title text={"Contact me 📮"}/>
@@ -29,12 +26,12 @@ const Hero = () => {
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-md blur-3xl" />
         <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-center items-start">
           <h1 className="font-bold text-xl text-white mb-4 relative z-50">
-            Meteors because they&apos;re cool
+            Meteors
           </h1>
            <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
             Explore
           </button>
- 
+
           {/* Meaty part - Meteor effect */}
           <Meteors number={20} />
         </div>
