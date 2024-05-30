@@ -15,7 +15,7 @@ const Hero = () => {
           </span>
         </h1>
         <p className="md: w-96 text-lg text-gray-100">
-          
+        I am a front-end developer from Dhaka, Bangladesh, with a  passion for utilizing my technical expertise and academic background to excel as a software engineer.
         </p>
         <Link href={"mailto:minhaz3896@gmail.com"} className="inline-block group">
           <Title text={"Contact me 📮"}/>

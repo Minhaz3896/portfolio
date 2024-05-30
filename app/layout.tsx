@@ -14,12 +14,12 @@ export const metadata: Metadata = {
 	},
 
 	description:
-		"Cast your vote now and see live updates on the poll results, powered by the real-time capabilities of Supabase database integration in our web app",
+		"Minhazur Rahman Portfolio.",
 	openGraph: {
 		title: "Minhazur Rahman",
 		description:
-			"Cast your vote now and see live updates on the poll results, powered by the real-time capabilities of Supabase database integration in our web app.",
-		url: "https://next-supabase-vote.vercel.app/",
+			"Minhazur Rahman Portfolio.",
+		url: "https://minhazur.netlify.app/",
 		siteName: "Minhazur Rahman",
 		images: "/og.png",
 		type: "website",
