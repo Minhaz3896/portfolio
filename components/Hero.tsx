@@ -5,7 +5,7 @@ import { Meteors } from "./ui/meteors";
 
 const Hero = () => {
   return (
-    <main className="min-h-[60vh] flex flex-row gap-10 lg:flex-row lg:gap-0 items-center justify-between animate-move-up ">
+    <main className="min-h-[70vh] mb-10 pb-5  md:min-h-[60vh] md:pb-0 flex flex-col gap-10 lg:flex-row lg:gap-0 items-center justify-between animate-move-up ">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold">
           Hello

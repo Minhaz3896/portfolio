@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Portfolio",
     tech: [SiReact,SiTailwindcss,SiTypescript,SiNextdotjs ],
-    link: "https://www.youtube.com/",
+    link: "https://minhazur.netlify.app/",
     cover: "/project-1.PNG",
     background: "bg-indigo-500",
   },
@@ -44,11 +44,11 @@ const Projects = () => {
         text={"Projects"}
         className={"flex flex-col items-center justify-center rotate-6"}
       />
-      <div className="grid grid-col-1 sm:grid-cols-2 pt-20 gap-5">
+      <div className="grid grid-col-1 sm:grid-cols-2 pt-20 gap-5 ">
         {projects.map((projects, index) => {
           return (
             <Link href={projects.link} key={index}>
-              <div className={cn("p-5 rounded-xl ", projects.background)}>
+              <div className={cn("p-2 md:p-5 rounded-xl ", projects.background)}>
                 <DirectionAwareHover imageUrl={projects.cover} className="w-full space-y-5 cursor-pointer">
                   <div className="space-y-5">
                   <h1 className="text-2xl font-bold">{projects.title}</h1>
