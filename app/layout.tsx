@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://next-supabase-vote.vercel.app/"),
+	metadataBase: new URL("https://minhazur.netlify.app/"),
 
 	title: 'Minhazur Rahman',
 	authors: {

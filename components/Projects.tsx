@@ -48,7 +48,7 @@ const Projects = () => {
         {projects.map((projects, index) => {
           return (
             <Link href={projects.link} key={index}>
-              <div className={cn("p-2 md:p-5 rounded-xl ", projects.background)}>
+              <div className={cn("p-2 md:p-5 rounded-md ", projects.background)}>
                 <DirectionAwareHover imageUrl={projects.cover} className="w-full space-y-5 cursor-pointer">
                   <div className="space-y-5">
                   <h1 className="text-2xl font-bold">{projects.title}</h1>
