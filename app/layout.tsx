@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 			"Minhazur Rahman Portfolio.",
 		url: "https://minhazur.netlify.app/",
 		siteName: "Minhazur Rahman",
-		images: "/project-1.PNG",
+		images: "/og.png",
 		type: "website",
 	},
 	
