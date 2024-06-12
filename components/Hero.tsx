@@ -1,9 +1,16 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 import Title from "./Title";
 import { Meteors } from "./ui/meteors";
 
 const Hero = () => {
+
+  const handleDownload = () => {
+    window.open('/Minhazur Rahman Resume.pdf', '_blank');
+  };
+
+
   return (
     <main className="min-h-[70vh] mb-10 pb-5  md:min-h-[60vh] md:pb-0 flex flex-col gap-10 lg:flex-row lg:gap-0 items-center justify-between animate-move-up ">
       <div className="space-y-10 text-center lg:text-left">
@@ -22,14 +29,14 @@ const Hero = () => {
         </Link>
       </div>
       
-      <div className=" w-56 md:w-full relative max-w-xs">
+      <div className=" w-56 md:w-full relative max-w-xs -rotate-6">
         <div className="absolute inset-0 h-full w-full  bg-gradient-to-r from-indigo-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-md blur-3xl" />
         <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-center items-center md:items-start">
           <h1 className="font-bold text-xl text-white mb-4 relative z-50 ">
-            Meteors
+            My Resume
           </h1>
-           <button className="border px-4 py-1 rounded-lg hover:text-green-300 transition-all border-gray-700 text-gray-300">
-            Explore
+           <button onClick={handleDownload} className="border px-4 py-1 rounded-3xl hover:text-green-300 transition-all border-gray-700 text-gray-300">
+            Download
           </button>
 
           {/* Meaty part - Meteor effect */}
